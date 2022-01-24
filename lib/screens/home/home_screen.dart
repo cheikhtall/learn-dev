@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_dev/screens/poo_screen.dart';
+import 'package:learn_dev/screens/poo/poo_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({ Key? key }) : super(key: key);

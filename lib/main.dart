@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learn_dev/constants.dart';
-import 'package:learn_dev/screens/home_screen.dart';
+import 'package:learn_dev/screens/home/home_screen.dart';
 import 'package:learn_dev/widgets/rounded__button.dart';
 
 void main() => runApp(MyApp());
