@@ -15,7 +15,6 @@ class _HomeScreenState extends State<HomeScreen> {
       drawer: NavigationDrawerWidget(),
       appBar: AppBar(
       ),
-      
     );
   }
 }
@@ -53,7 +52,7 @@ class NavigationDrawerWidget extends StatelessWidget {
             const SizedBox(height: 24),
              
           ],
-        ),
+        )
       ),
     );
   }
@@ -61,7 +60,7 @@ class NavigationDrawerWidget extends StatelessWidget {
   Widget buildMenuItem({
     required String text, 
     required IconData icon,
-    VoidCallback? onClicked,
+    onClicked,
   })
   {
   final color = Colors.white;
@@ -88,7 +87,7 @@ class NavigationDrawerWidget extends StatelessWidget {
      }
   }
 
-
+ 
 }
 
 
