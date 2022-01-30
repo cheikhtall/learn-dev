@@ -34,17 +34,11 @@ class WelcomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container(
           width: double.infinity,
-          // decoration: const BoxDecoration(
-          //   image: DecorationImage(
-          //     image: AssetImage("assets/images/acceuil.jpeg"),
-          //     fit: BoxFit.fill,
-          //   ),
-          // ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
                Padding(
-                padding: EdgeInsets.all(50),
+                padding: EdgeInsets.all(70),
               ),
               Container(
                 child: Center(
@@ -54,25 +48,25 @@ class WelcomeScreen extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.all(20),
               ),
-              RichText(
-                text: TextSpan(
-                  style: Theme.of(context).textTheme.headline4,
-                  children: [
-                    TextSpan(text: "Apprendre le code"),
-                    TextSpan(
-                      text: "",
-                      style: TextStyle(fontWeight: FontWeight.bold),
-                    ),
-                  ],
-                ),
-              ),
+              // RichText(
+              //   text: TextSpan(
+                  
+              //     style: Theme.of(context).textTheme.headline4,
+              //     children: [
+              //       TextSpan(text: "Apprendre à programmer",),
+              //       TextSpan(
+              //         text: "",
+              //         style: TextStyle(fontWeight: FontWeight.bold),
+              //       ),
+              //     ],
+              //   ),
+              // ),
               SizedBox(
                 width: MediaQuery.of(context).size.width * .6,
                 child: RoundedButton(
                   text: "Commencer",
                   fontSize: 20,
                   press: () {
-                    //SchedulerBinding.instance?.addPostFrameCallback((_) {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) {
