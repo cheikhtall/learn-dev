@@ -88,9 +88,48 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   ),
                 ),
-               ],
-            ),
+                Container(
+            height: 130,
+            child: Card(
+//                color: Colors.blue,
+              elevation: 10,
+                  child : Row(
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.all(10.0),
+                        child: Container(
+                          width:50.0,
+                          height: 50.0,
+                          decoration : BoxDecoration(
+                            color : Colors.white,
+                            image : DecorationImage(
+                              image:AssetImage("assets/images/alert.png") ,
+                              fit : BoxFit.cover),
+                              borderRadius : BorderRadius.all(Radius.circular(75.0)),
+                              // boxShadow : [
+                              //   BoxShadow(blurRadius : 7.0, color : Colors.black)
+                              // ],
+                            ),
+                          ),
+                        ),
+                         Container(
+                        padding: EdgeInsets.all(10.0),
+                        child: Chip(
+                          label: Text('Essayez de comprendre les concepts\n de base\n avant de passer à la suite'),
+                          shadowColor: Colors.blue,
+                          backgroundColor: Colors.white,
+                          elevation: 10,
+                          autofocus: true,
+                        )),
+                    ],
+                  ),
+                  
+                ),
+                   
+                ),
+            ],
           ),
+        ),
       ),
     );
   }

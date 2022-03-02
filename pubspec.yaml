@@ -65,8 +65,8 @@ flutter:
     - assets/images/codeur.png
     - assets/images/php.png
     - assets/images/python.png
-    - assets/images/main_page_bg.png
     - assets/images/cert.png
+    - assets/images/alert.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
